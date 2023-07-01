@@ -30,5 +30,8 @@ int main(){
     Employee emp2 = Employee("Anuradha","IFS", 24);
     emp2.introduceYourSelf();
 
+    // allow to access private details in the class
+    cout << emp1.age << endl;
+
     return 0;
 }
