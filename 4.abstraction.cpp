@@ -8,7 +8,7 @@ class AbstractEmployee{
 };
 
 
-class Employee{
+class Employee:AbstractEmployee{
 private:
     string name;
     string companyName;
